@@ -4,7 +4,7 @@
     "description": "CI + Docker demo project",
     "main": "index.js",
     "scripts": {
-      "lint": "eslint .",
+      "lint": "node ./node_modules/eslint/bin/eslint.js .",
       "test": "echo \"Test passed successfully\""
     },
     "author": "",
