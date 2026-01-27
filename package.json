@@ -1,12 +1,18 @@
 {
     "name": "ci-demo-app",
     "version": "1.0.0",
+    "description": "CI + Docker demo project",
+    "main": "index.js",
     "scripts": {
-        "test": "echo \"Test passed successfully\""
+      "lint": "eslint .",
+      "test": "echo \"Test passed successfully\""
     },
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
-        "@eslint/js": "^9.39.2",
-        "eslint": "^9.39.2",
-        "globals": "^17.1.0"
+      "@eslint/js": "^9.39.2",
+      "eslint": "^9.39.2",
+      "globals": "^17.1.0"
     }
-}
+  }
+  
